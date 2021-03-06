@@ -1,0 +1,159 @@
+body {
+  background-color: #A5BFD4;
+  max-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  margin: -220px 0 0 -200px;
+  top: 50%;
+  left: 50%;
+}
+
+.chat {
+  width: 400px;
+  height: auto;
+  background-color: white;
+}
+
+.chat__container {
+  padding: 0 20px;
+}
+
+.chat__header {
+  background-color: #6A96D8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.chat__title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+
+.chat__title ul{
+  margin: 0;
+  
+}
+
+.chat__close {
+  background-image: url("/img/close.svg");
+  height: 24px;
+  width: 24px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* CHAT DATE */
+
+.chat__date {
+  margin-bottom: 25px;
+  opacity: 0.2;
+}
+
+h2 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  font-weight: 500;
+} 
+
+h2 span { 
+  background:#fff; 
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.time {
+  display: block;
+  font-style: 12px;
+  opacity: 0.2;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.message__wrapper {
+  background-color: #E6EDF6;
+  max-width: 80%;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.message__text {
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.message__wrapper_opacolor {
+  background-color: #F2F2F2;
+  max-width: 80%;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.message__wrapper_block {
+  background-color: #FFC2C1;
+  max-width: 80%;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.commit {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.input {
+  width: 310px;
+  border: none;
+  border-color: transparent;
+  outline: none;
+}
+
+.button {
+  border: none;
+  background: none;
+  color: #789BD8;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
