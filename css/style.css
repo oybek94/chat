@@ -99,6 +99,18 @@ h2 span {
   margin-bottom: 10px;
 }
 
+.message__wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-right: 10px solid #E6EDF6;
+  border-bottom: 12px solid transparent;
+}
+
 .message__text {
   padding: 10px;
   margin: 0;
@@ -119,6 +131,18 @@ h2 span {
   position: relative;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+.message__wrapper_opacolor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -7px;
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-left: 10px solid #F2F2F2;
+  border-bottom: 12px solid transparent;
 }
 
 .message__wrapper_block {
@@ -151,9 +175,14 @@ h2 span {
   cursor: pointer;
   padding: 0;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 form {
   display: flex;
   justify-content: space-between;
+}
+
+hr {
+  opacity: 0.5;
 }
